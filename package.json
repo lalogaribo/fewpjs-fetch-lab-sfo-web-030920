@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "debug-ide": "./bin/debug-ide",
-    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+    // "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+    "test": "mocha --exit --recursive --timeout 5000"
   },
   "repository": {
     "type": "git",
